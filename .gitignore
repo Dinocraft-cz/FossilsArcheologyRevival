@@ -6,6 +6,8 @@ tmp/
 *.bak
 *.swp
 *.properties
+!gradle.properties
+!gradle/wrapper/gradle-wrapper.properties
 .settings/
 .loadpath
 .idea/

@@ -28,6 +28,9 @@ public class GuiRevivalMenu extends GuiMainMenu {
     private int layerTick;
     private int backAdd;
     private int frontAdd;
+    private String splashText;
+    private Random rand = new Random();
+    private static final ResourceLocation minecraftTitleTextures = new ResourceLocation("textures/gui/title/minecraft.png");
 
     public GuiRevivalMenu() {
         super();
@@ -110,7 +113,7 @@ public class GuiRevivalMenu extends GuiMainMenu {
 
         GL11.glPushMatrix();
         GL11.glTranslatef(0.0F, MathHelper.sin(((float) this.layerTick + partialTicks) / 16.0F) * 4.0F, 0.0F);
-        this.mc.getTextureManager().bindTexture(GuiMainMenu.minecraftTitleTextures);
+        this.mc.getTextureManager().bindTexture(minecraftTitleTextures);
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
         this.drawTexturedModalRect(this.width / 2 - 274 / 2, 30, 0, 0, 155, 44);
         this.drawTexturedModalRect(this.width / 2 - 274 / 2 + 155, 30, 0, 45, 155, 44);

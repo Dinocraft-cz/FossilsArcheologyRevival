@@ -10,7 +10,7 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 import java.util.Random;
 
 public class MegaSpikeWorldGen extends WorldGenerator {
-    private static final String __OBFID = "CL_00000417";
+
 
     @Override
     public boolean generate(World p_76484_1_, Random p_76484_2_, int p_76484_3_, int p_76484_4_, int p_76484_5_) {

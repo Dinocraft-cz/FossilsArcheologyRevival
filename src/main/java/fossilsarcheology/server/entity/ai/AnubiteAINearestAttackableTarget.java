@@ -13,7 +13,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class AnubiteAINearestAttackableTarget extends EntityAITarget {
-    private static final String __OBFID = "CL_00001620";
+
     private final Class targetClass;
     private final int targetChance;
     /**
@@ -42,7 +42,7 @@ public class AnubiteAINearestAttackableTarget extends EntityAITarget {
         this.theNearestAttackableTargetSorter = new AnubiteAINearestAttackableTarget.Sorter(prey);
         this.setMutexBits(1);
         this.targetEntitySelector = new IEntitySelector() {
-            private static final String __OBFID = "CL_00001621";
+
 
             /**
              * Return whether the specified entity is applicable to this filter.
@@ -98,7 +98,7 @@ public class AnubiteAINearestAttackableTarget extends EntityAITarget {
     }
 
     public static class Sorter implements Comparator {
-        private static final String __OBFID = "CL_00001622";
+
         private final Entity theEntity;
 
         public Sorter(Entity p_i1662_1_) {

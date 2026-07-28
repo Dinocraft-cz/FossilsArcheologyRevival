@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Random;
 
 public class ChunkProviderTreasure implements IChunkProvider {
-    private static final String __OBFID = "CL_00000397";
+
     public NoiseGeneratorOctaves noiseGen4;
     public NoiseGeneratorOctaves noiseGen5;
     double[] noiseData1;

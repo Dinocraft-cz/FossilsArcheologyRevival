@@ -277,7 +277,7 @@ public class AnuTeleporter extends Teleporter {
     }
 
     public class PortalPosition extends ChunkCoordinates {
-        private static final String __OBFID = "CL_00000154";
+
         /**
          * The worldtime at which this PortalPosition was last verified
          */
